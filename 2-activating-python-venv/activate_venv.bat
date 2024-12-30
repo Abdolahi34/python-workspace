@@ -1,6 +1,6 @@
 @echo off
 :: Define the path to your virtual environment folder
-set venvPath=C:\path\to\venv
+set venvPath="C:\path\to\venv"
 
 :: Check if the venv folder exists and the activate.bat script is present
 if exist "%venvPath%\Scripts\activate.bat" (
